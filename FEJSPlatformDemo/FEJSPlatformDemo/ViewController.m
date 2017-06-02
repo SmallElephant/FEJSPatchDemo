@@ -23,8 +23,6 @@
     [self.data addObject:@"FlyElephant"];
     [self.data addObject:@"Keso"];
     [self.data addObject:@"北京"];
-    
-    NSLog(@"文件目录:%@",NSHomeDirectory());
 }
 
 
