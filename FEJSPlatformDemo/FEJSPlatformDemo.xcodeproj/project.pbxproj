@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C763763CB8C67FEAA8A64CD /* Pods_FEJSPlatformDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2CA217ABCA382546297E58 /* Pods_FEJSPlatformDemo.framework */; };
+		A812F8911EE15663009C2AE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A812F8901EE15663009C2AE3 /* main.m */; };
+		A812F8941EE15663009C2AE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A812F8931EE15663009C2AE3 /* AppDelegate.m */; };
+		A812F8971EE15663009C2AE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A812F8961EE15663009C2AE3 /* ViewController.m */; };
+		A812F89A1EE15663009C2AE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A812F8981EE15663009C2AE3 /* Main.storyboard */; };
+		A812F89C1EE15663009C2AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A812F89B1EE15663009C2AE3 /* Assets.xcassets */; };
+		A812F89F1EE15663009C2AE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A812F89D1EE15663009C2AE3 /* LaunchScreen.storyboard */; };
+		A812F8AA1EE15663009C2AE3 /* FEJSPlatformDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A812F8A91EE15663009C2AE3 /* FEJSPlatformDemoTests.m */; };
+		A812F8B51EE15663009C2AE3 /* FEJSPlatformDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A812F8B41EE15663009C2AE3 /* FEJSPlatformDemoUITests.m */; };
+		A812F8C31EE158F4009C2AE3 /* JSPatchPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A812F8C21EE158F4009C2AE3 /* JSPatchPlatform.framework */; };
+		A812F8C51EE1593F009C2AE3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A812F8C41EE1593F009C2AE3 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A812F8A61EE15663009C2AE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A812F8841EE15663009C2AE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A812F88B1EE15663009C2AE3;
+			remoteInfo = FEJSPlatformDemo;
+		};
+		A812F8B11EE15663009C2AE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A812F8841EE15663009C2AE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A812F88B1EE15663009C2AE3;
+			remoteInfo = FEJSPlatformDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A2CA217ABCA382546297E58 /* Pods_FEJSPlatformDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FEJSPlatformDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2D38D08AEA9F5E16B4A748 /* Pods-FEJSPlatformDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FEJSPlatformDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FEJSPlatformDemo/Pods-FEJSPlatformDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A812F88C1EE15663009C2AE3 /* FEJSPlatformDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FEJSPlatformDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A812F8901EE15663009C2AE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A812F8921EE15663009C2AE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A812F8931EE15663009C2AE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A812F8951EE15663009C2AE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A812F8961EE15663009C2AE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A812F8991EE15663009C2AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A812F89B1EE15663009C2AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A812F89E1EE15663009C2AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A812F8A01EE15663009C2AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A812F8A51EE15663009C2AE3 /* FEJSPlatformDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEJSPlatformDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A812F8A91EE15663009C2AE3 /* FEJSPlatformDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEJSPlatformDemoTests.m; sourceTree = "<group>"; };
+		A812F8AB1EE15663009C2AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A812F8B01EE15663009C2AE3 /* FEJSPlatformDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEJSPlatformDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A812F8B41EE15663009C2AE3 /* FEJSPlatformDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEJSPlatformDemoUITests.m; sourceTree = "<group>"; };
+		A812F8B61EE15663009C2AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A812F8C21EE158F4009C2AE3 /* JSPatchPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatchPlatform.framework; sourceTree = "<group>"; };
+		A812F8C41EE1593F009C2AE3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E9AAD6D5E8A232CA8BCCE62E /* Pods-FEJSPlatformDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FEJSPlatformDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FEJSPlatformDemo/Pods-FEJSPlatformDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A812F8891EE15663009C2AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A812F8C51EE1593F009C2AE3 /* libz.tbd in Frameworks */,
+				1C763763CB8C67FEAA8A64CD /* Pods_FEJSPlatformDemo.framework in Frameworks */,
+				A812F8C31EE158F4009C2AE3 /* JSPatchPlatform.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A812F8A21EE15663009C2AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A812F8AD1EE15663009C2AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AAF4E4732130058F3CC2B96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F2D38D08AEA9F5E16B4A748 /* Pods-FEJSPlatformDemo.debug.xcconfig */,
+				E9AAD6D5E8A232CA8BCCE62E /* Pods-FEJSPlatformDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5AB49FA4F7C9FA6CCDA0EEDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A812F8C41EE1593F009C2AE3 /* libz.tbd */,
+				1A2CA217ABCA382546297E58 /* Pods_FEJSPlatformDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A812F8831EE15663009C2AE3 = {
+			isa = PBXGroup;
+			children = (
+				A812F88E1EE15663009C2AE3 /* FEJSPlatformDemo */,
+				A812F8A81EE15663009C2AE3 /* FEJSPlatformDemoTests */,
+				A812F8B31EE15663009C2AE3 /* FEJSPlatformDemoUITests */,
+				A812F88D1EE15663009C2AE3 /* Products */,
+				0AAF4E4732130058F3CC2B96 /* Pods */,
+				5AB49FA4F7C9FA6CCDA0EEDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A812F88D1EE15663009C2AE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A812F88C1EE15663009C2AE3 /* FEJSPlatformDemo.app */,
+				A812F8A51EE15663009C2AE3 /* FEJSPlatformDemoTests.xctest */,
+				A812F8B01EE15663009C2AE3 /* FEJSPlatformDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A812F88E1EE15663009C2AE3 /* FEJSPlatformDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A812F8921EE15663009C2AE3 /* AppDelegate.h */,
+				A812F8931EE15663009C2AE3 /* AppDelegate.m */,
+				A812F8951EE15663009C2AE3 /* ViewController.h */,
+				A812F8961EE15663009C2AE3 /* ViewController.m */,
+				A812F8981EE15663009C2AE3 /* Main.storyboard */,
+				A812F89B1EE15663009C2AE3 /* Assets.xcassets */,
+				A812F89D1EE15663009C2AE3 /* LaunchScreen.storyboard */,
+				A812F8A01EE15663009C2AE3 /* Info.plist */,
+				A812F8C21EE158F4009C2AE3 /* JSPatchPlatform.framework */,
+				A812F88F1EE15663009C2AE3 /* Supporting Files */,
+			);
+			path = FEJSPlatformDemo;
+			sourceTree = "<group>";
+		};
+		A812F88F1EE15663009C2AE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A812F8901EE15663009C2AE3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A812F8A81EE15663009C2AE3 /* FEJSPlatformDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A812F8A91EE15663009C2AE3 /* FEJSPlatformDemoTests.m */,
+				A812F8AB1EE15663009C2AE3 /* Info.plist */,
+			);
+			path = FEJSPlatformDemoTests;
+			sourceTree = "<group>";
+		};
+		A812F8B31EE15663009C2AE3 /* FEJSPlatformDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A812F8B41EE15663009C2AE3 /* FEJSPlatformDemoUITests.m */,
+				A812F8B61EE15663009C2AE3 /* Info.plist */,
+			);
+			path = FEJSPlatformDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A812F88B1EE15663009C2AE3 /* FEJSPlatformDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A812F8B91EE15663009C2AE3 /* Build configuration list for PBXNativeTarget "FEJSPlatformDemo" */;
+			buildPhases = (
+				5149BF5BCA406347FC2EF327 /* [CP] Check Pods Manifest.lock */,
+				A812F8881EE15663009C2AE3 /* Sources */,
+				A812F8891EE15663009C2AE3 /* Frameworks */,
+				A812F88A1EE15663009C2AE3 /* Resources */,
+				8F7219E6B2509E2A430FB217 /* [CP] Embed Pods Frameworks */,
+				F4E7B8F61678BE9F000F618D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FEJSPlatformDemo;
+			productName = FEJSPlatformDemo;
+			productReference = A812F88C1EE15663009C2AE3 /* FEJSPlatformDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A812F8A41EE15663009C2AE3 /* FEJSPlatformDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A812F8BC1EE15663009C2AE3 /* Build configuration list for PBXNativeTarget "FEJSPlatformDemoTests" */;
+			buildPhases = (
+				A812F8A11EE15663009C2AE3 /* Sources */,
+				A812F8A21EE15663009C2AE3 /* Frameworks */,
+				A812F8A31EE15663009C2AE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A812F8A71EE15663009C2AE3 /* PBXTargetDependency */,
+			);
+			name = FEJSPlatformDemoTests;
+			productName = FEJSPlatformDemoTests;
+			productReference = A812F8A51EE15663009C2AE3 /* FEJSPlatformDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A812F8AF1EE15663009C2AE3 /* FEJSPlatformDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A812F8BF1EE15663009C2AE3 /* Build configuration list for PBXNativeTarget "FEJSPlatformDemoUITests" */;
+			buildPhases = (
+				A812F8AC1EE15663009C2AE3 /* Sources */,
+				A812F8AD1EE15663009C2AE3 /* Frameworks */,
+				A812F8AE1EE15663009C2AE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A812F8B21EE15663009C2AE3 /* PBXTargetDependency */,
+			);
+			name = FEJSPlatformDemoUITests;
+			productName = FEJSPlatformDemoUITests;
+			productReference = A812F8B01EE15663009C2AE3 /* FEJSPlatformDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A812F8841EE15663009C2AE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = FlyElephant;
+				TargetAttributes = {
+					A812F88B1EE15663009C2AE3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					A812F8A41EE15663009C2AE3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A812F88B1EE15663009C2AE3;
+					};
+					A812F8AF1EE15663009C2AE3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A812F88B1EE15663009C2AE3;
+					};
+				};
+			};
+			buildConfigurationList = A812F8871EE15663009C2AE3 /* Build configuration list for PBXProject "FEJSPlatformDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A812F8831EE15663009C2AE3;
+			productRefGroup = A812F88D1EE15663009C2AE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A812F88B1EE15663009C2AE3 /* FEJSPlatformDemo */,
+				A812F8A41EE15663009C2AE3 /* FEJSPlatformDemoTests */,
+				A812F8AF1EE15663009C2AE3 /* FEJSPlatformDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A812F88A1EE15663009C2AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A812F89F1EE15663009C2AE3 /* LaunchScreen.storyboard in Resources */,
+				A812F89C1EE15663009C2AE3 /* Assets.xcassets in Resources */,
+				A812F89A1EE15663009C2AE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A812F8A31EE15663009C2AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A812F8AE1EE15663009C2AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5149BF5BCA406347FC2EF327 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F7219E6B2509E2A430FB217 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FEJSPlatformDemo/Pods-FEJSPlatformDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E7B8F61678BE9F000F618D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FEJSPlatformDemo/Pods-FEJSPlatformDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A812F8881EE15663009C2AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A812F8971EE15663009C2AE3 /* ViewController.m in Sources */,
+				A812F8941EE15663009C2AE3 /* AppDelegate.m in Sources */,
+				A812F8911EE15663009C2AE3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A812F8A11EE15663009C2AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A812F8AA1EE15663009C2AE3 /* FEJSPlatformDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A812F8AC1EE15663009C2AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A812F8B51EE15663009C2AE3 /* FEJSPlatformDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A812F8A71EE15663009C2AE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A812F88B1EE15663009C2AE3 /* FEJSPlatformDemo */;
+			targetProxy = A812F8A61EE15663009C2AE3 /* PBXContainerItemProxy */;
+		};
+		A812F8B21EE15663009C2AE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A812F88B1EE15663009C2AE3 /* FEJSPlatformDemo */;
+			targetProxy = A812F8B11EE15663009C2AE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A812F8981EE15663009C2AE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A812F8991EE15663009C2AE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A812F89D1EE15663009C2AE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A812F89E1EE15663009C2AE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A812F8B71EE15663009C2AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A812F8B81EE15663009C2AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A812F8BA1EE15663009C2AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2D38D08AEA9F5E16B4A748 /* Pods-FEJSPlatformDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FEJSPlatformDemo",
+				);
+				INFOPLIST_FILE = FEJSPlatformDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FEJSPlatformDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A812F8BB1EE15663009C2AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9AAD6D5E8A232CA8BCCE62E /* Pods-FEJSPlatformDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FEJSPlatformDemo",
+				);
+				INFOPLIST_FILE = FEJSPlatformDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FEJSPlatformDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A812F8BD1EE15663009C2AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FEJSPlatformDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FEJSPlatformDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FEJSPlatformDemo.app/FEJSPlatformDemo";
+			};
+			name = Debug;
+		};
+		A812F8BE1EE15663009C2AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FEJSPlatformDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FEJSPlatformDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FEJSPlatformDemo.app/FEJSPlatformDemo";
+			};
+			name = Release;
+		};
+		A812F8C01EE15663009C2AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FEJSPlatformDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FEJSPlatformDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FEJSPlatformDemo;
+			};
+			name = Debug;
+		};
+		A812F8C11EE15663009C2AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FEJSPlatformDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FEJSPlatformDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FEJSPlatformDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A812F8871EE15663009C2AE3 /* Build configuration list for PBXProject "FEJSPlatformDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A812F8B71EE15663009C2AE3 /* Debug */,
+				A812F8B81EE15663009C2AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A812F8B91EE15663009C2AE3 /* Build configuration list for PBXNativeTarget "FEJSPlatformDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A812F8BA1EE15663009C2AE3 /* Debug */,
+				A812F8BB1EE15663009C2AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A812F8BC1EE15663009C2AE3 /* Build configuration list for PBXNativeTarget "FEJSPlatformDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A812F8BD1EE15663009C2AE3 /* Debug */,
+				A812F8BE1EE15663009C2AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A812F8BF1EE15663009C2AE3 /* Build configuration list for PBXNativeTarget "FEJSPlatformDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A812F8C01EE15663009C2AE3 /* Debug */,
+				A812F8C11EE15663009C2AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A812F8841EE15663009C2AE3 /* Project object */;
+}
